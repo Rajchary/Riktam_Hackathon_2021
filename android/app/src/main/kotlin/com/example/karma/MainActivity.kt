@@ -1,4 +1,4 @@
-package com.example.karma
+package com.riktam.karma
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967941235111",
+    "project_id": "karma-a7520",
+    "storage_bucket": "karma-a7520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967941235111:android:2cdaa352d8c1794d87d682",
+        "android_client_info": {
+          "package_name": "com.riktam.karma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967941235111-6d6bm63feokjbvll71khmgf12gnri6gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHm4QwT9xZIxPJ-57KYdMJJ-nODBE8OL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967941235111-6d6bm63feokjbvll71khmgf12gnri6gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
