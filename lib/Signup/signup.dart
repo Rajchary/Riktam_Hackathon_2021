@@ -369,7 +369,7 @@ class _SignupState extends State<Signup> {
         "pinCode": pscodeController.text.trim(),
         "KarmaPoints": 100,
         "gender": gender,
-      }).then((value) {
+      }).then((value) async {
         Fluttertoast.showToast(msg: "Successfully registered");
         Navigator.pushNamedAndRemoveUntil(context, '/Parent', (route) => false);
         return "Success";

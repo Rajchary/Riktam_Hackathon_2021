@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:karma/components/profile.dart';
+import 'package:karma/components/transaction_aproval.dart';
 
 import 'home.dart';
 
@@ -12,7 +13,7 @@ class Parent extends StatefulWidget {
 
 class _ParentState extends State<Parent> {
   int currentIndex = 0;
-  final screens = const [Home(), Profile()];
+  final screens = const [Home(), Profile(), Approval()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
