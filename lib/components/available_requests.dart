@@ -66,22 +66,6 @@ class _FetchRequestState extends State<FetchRequest> {
                 SizedBox(
                   height: size.height * .055,
                 ),
-                Row(
-                  children: [
-                    SizedBox(
-                      width: size.width * .035,
-                    ),
-                    IconButton(
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                        icon: Icon(
-                          Icons.arrow_back_ios_new,
-                          size: size.width * .075,
-                          color: Colors.blue,
-                        )),
-                  ],
-                ),
                 Text(
                   "Requests ",
                   style: GoogleFonts.rajdhani(

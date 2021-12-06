@@ -75,7 +75,7 @@ class _ApprovalState extends State<Approval> {
                             padding: EdgeInsets.all(10),
                             child: GestureDetector(
                               onTap: () async {
-                                Navigator.pushNamed(context, '/Approval',
+                                Navigator.pushNamed(context, '/HelpApproval',
                                     arguments: approvalsData[index]);
                               },
                               child: Container(

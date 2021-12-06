@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:karma/Signup/signup.dart';
 import 'package:karma/components/available_requests.dart';
 import 'package:karma/components/borrow_request.dart';
+import 'package:karma/components/help_approval.dart';
 import 'package:karma/components/profile.dart';
 import 'package:karma/components/splash.dart';
 import 'package:karma/components/transaction_aproval.dart';
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
         '/FetchRequest': (context) => const FetchRequest(),
         '/Request': (context) => const Request(),
         '/Aproval': (context) => const Approval(),
+        '/HelpApproval': (context) => const HelpApproval(),
       },
     );
   }
